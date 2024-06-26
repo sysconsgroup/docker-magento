@@ -11,4 +11,4 @@ curl -s https://raw.githubusercontent.com/sysconsgroup/docker-magento/master/lib
 bin/download "${VERSION}" "${EDITION}" \
   && bin/setup "${DOMAIN}"
 
-git clone git@bitbucket.org:sysconsgroup/magento-plugin.git src/app/code/Sella
+git clone git@bitbucket.org:sysconsgroup/magento-plugin.git src/app/code
